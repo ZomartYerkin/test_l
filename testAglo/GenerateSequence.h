@@ -5,7 +5,7 @@
 
 
 class GenerateSequence {
-	int current = 0;
+	int current = 1; // changed from 0 to 1 for multiplying
 
 public:
 	int operator () () { return current++;  }

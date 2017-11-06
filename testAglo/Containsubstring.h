@@ -12,7 +12,7 @@ class Containsubstring {
 	string m_substring;
 
 public:
-	Containsubstring(const string &substring) :m_substring(substring) { } // m_substring copied from (substring)
+	Containsubstring(const string &substring) : m_substring(substring) { } // m_substring copied from (substring)
 
 	bool operator () (const string &mainString) const
 	{
